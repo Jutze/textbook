@@ -1,0 +1,68 @@
+\documentclass[a4paper,11pt]{book}
+\usepackage[latin1]{inputenc}
+\usepackage[english,ngerman]{babel}
+%\usepackage{afterpage}
+%\usepackage{booktabs}
+%\usepackage{longtable}
+\usepackage{graphicx}%\usepackage[draft]{graphicx}
+%\usepackage{textcomp}%\usepackage{epic,eepic,ecltree}
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\lhead{}\chead{\leftmark}\rhead{}
+%\lfoot{}\cfoot{}\rfoot{\thepage}
+%\addtolength{\headheight}{3pt}
+%\setlength{\LTcapwidth}{\linewidth}
+%\addtolength{\headwidth}{\marginparsep}%\addtolength{\headwidth}{0.5\marginparwidth}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,
+linkcolor=black,
+urlcolor=black,
+citecolor=black,
+pdfauthor={Johannes Schult},
+pdftitle={Textbook},
+pdfsubject={A not so gentle introduction to R, SPSS and Stata},
+pdfkeywords={statistics, spss, stata, r, r-project, software, data analysis, datenanalyse, statistik, german, deutsch}}
+\usepackage{apacite}
+\bibliographystyle{apacite}
+%%%in abstract = section no. 0 -> \setcounter{section}{-1}
+%\linespread{1.24}
+\title{R, Stata und SPSS, oder wie man Datenanalyse-Software verwendet, ohne den Verstand zu verlieren\thanks{Dies ist ein Arbeitstitel. Das Manuskript befindet sich noch im Aufbau.}}
+\author{Johannes Schult\thanks{\url{jutze@jutze.com}}}
+\date{Letzte Änderung am \today}
+\begin{document}
+\begin{titlepage}
+	\maketitle
+\end{titlepage}
+%\setcounter{page}{0}
+%\input{cover}
+%\pagebreak
+\pagebreak
+\noindent Dieses Manuskript steht unter einer Creative-Commons-Lizenz Namensnennung--Nicht-kommerziell--Weitergabe unter gleichen Bedingungen (CC BY-NC-SA). Der genaue Lizenztext ist abrufbar unter \url{http://creativecommons.org/licenses/by-nc-sa/3.0}
+\bigskip
+
+\noindent Die Wiedergabe von Gebrauchsnamen, Handelsnamen, Warenbezeichnungen usw. in diesem Text berechtigt auch ohne besondere Kennzeichung nicht zu der Annahme, dass solche Namen im Sinne der Warenzeichen- und Marken\-schutz-Gesetzgebung als frei zu betrachten wären und daher von jederman benutzt werden dürften.
+\pagebreak
+\tableofcontents
+\input{vorwort}
+%\pagebreak
+%\listoffigures
+%\listoftables
+%\input{asdf.tex}
+\input{einleitung}
+\input{arbeitsfluss}
+\input{computer}
+\input{programme}
+\input{daserstemal}
+%\input{discussion.tex}
+
+%\appendix
+%\input{appendix.tex}
+
+%\clearpage
+
+\newpage
+%\pagebreak
+
+\bibliography{textbook}
+\end{document}
